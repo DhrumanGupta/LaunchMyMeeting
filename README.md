@@ -21,6 +21,7 @@ You will be presented with a lot of options. Download a version according to you
 ## How to use  
 Download or compile the code, and run the application.  
 A one time setup is required, but it works flawlessly after that!  
+To run the file, you can run LaunchMyMeeting.exe (if on windows), or run `dotnet LaunchMyMeetings.dll` in a terminal opened in the app's directory.
   
 ## Not working?  
 If there is any error, or the application does not work, please [create an issue here](https://github.com/DhrumanGupta/LaunchMyMeeting/issues/new) and explain what happened. Thanks a lot for your support!
