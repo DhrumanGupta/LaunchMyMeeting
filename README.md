@@ -8,9 +8,11 @@ You will be presented with a lot of options. Download a version according to you
 * Windows 32-bit
 * Windows 64-bit
 * Windows arm
+* Windows arm 64-bit
 * OSX 64-bit
 * Linux 64-bit
 * Linux arm
+* Linux arm 64-bit
 
 ## Requirments  
 * [.NET 5](https://dotnet.microsoft.com/download/dotnet) installed (runtime)  
