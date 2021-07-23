@@ -86,8 +86,7 @@ namespace LaunchMyMeeting
 
             Console.WriteLine($"Found {meetings.Count} TOTAL meetings");
 
-            // var currTime = DateTime.Now;
-            var currTime = new DateTime(2021, 7, 22, 8, 26, 0);
+            var currTime = DateTime.Now;
 
             meetings = meetings
                 .Where(meeting => meeting.StartTime.DayOfYear == currTime.DayOfYear)
