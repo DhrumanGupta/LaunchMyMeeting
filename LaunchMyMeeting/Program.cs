@@ -94,7 +94,7 @@ namespace LaunchMyMeeting
 
             var finalMeetings = (from meeting in meetings
                 let minutesDiff = (currTime - meeting.StartTime).TotalMinutes
-                where minutesDiff < meeting.Duration - 10 && minutesDiff >= -5
+                where minutesDiff < meeting.Duration - 5 && minutesDiff >= -5
                 select meeting).ToList();
 
             switch (finalMeetings.Count)
